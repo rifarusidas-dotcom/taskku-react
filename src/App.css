@@ -211,6 +211,14 @@ button {
   margin-bottom: 14px;
   flex-wrap: wrap;
 }
+.task-item {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(112, 84, 200, 0.12);
+}
 
 .task-details h3 {
   color: #40335e;

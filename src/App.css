@@ -10,6 +10,7 @@
 
 .app-container {
   min-height: 100vh;
+  width: 100%;
   background: #f7f5ff;
 }
 
@@ -289,6 +290,7 @@ button:active {
   font-size: 13px;
 }
 
+
 @media (max-width: 700px) {
   .navbar {
     flex-direction: column;
@@ -316,4 +318,53 @@ button:active {
     align-items: flex-start;
     flex-direction: column;
   }
+
+  .main-content {
+  max-width: 1150px;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
 }
+
+  .task-form,
+  .task-section {
+    padding: 18px;
+  }
+
+  .stat-card {
+    padding: 20px;
+  }
+
+  .task-actions {
+    width: 100%;
+  }
+
+  .task-actions button {
+    flex: 1;
+  }
+}
+
+
+  .navbar-menu {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header h1 {
+    font-size: 25px;
+  }
+
+  .stats-container {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+  }
+
+  .task-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
